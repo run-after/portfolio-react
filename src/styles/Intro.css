@@ -1,0 +1,30 @@
+#intro {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#intro .greeting {
+  font-size: 4em;
+  margin: 20px;
+}
+
+#intro .name {
+  color: red;
+  font-weight: bold;
+}
+
+#intro .description {
+  font-size: 2em;
+}
+
+.link {
+  height: 50px;
+  padding: 20px;
+}
+
+.link:hover {
+  opacity: 0.5;
+}

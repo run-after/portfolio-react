@@ -1,0 +1,32 @@
+.skills {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50vh;
+  margin-right: 50px;
+  padding-bottom: 100px;
+}
+
+.skills .title {
+  font-size: 2em;
+  padding: 20px;
+}
+
+.skills .icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skills .tech-icon {
+  height: 100px;
+  border-radius: 20px;
+  border: 1px solid greenyellow;
+  padding: 10px;
+}

@@ -1,0 +1,76 @@
+#about {
+  margin-left: 20px;
+  display: flex;
+  gap: 50px;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#about .definition {
+  margin-bottom: 20px;
+}
+
+#about .definition > * {
+  padding: 5px;
+}
+
+.definition .title {
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+}
+
+#about .name {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#about .pronounce {
+  font-style: italic;
+}
+
+#about .bold {
+  font-weight: bold;
+}
+
+#about .number {
+  opacity: 0.5;
+}
+
+#about .description {
+  line-height: 1.5em;
+}
+
+.test {
+  width: 40%;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.skills .title {
+  font-size: 2em;
+  padding: 20px;
+}
+
+.skills .icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skills .tech-icon {
+  height: 100px;
+  border-radius: 20px;
+  border: 1px solid white;
+  padding: 10px;
+}
