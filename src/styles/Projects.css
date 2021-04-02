@@ -1,20 +1,35 @@
 #projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-line-pack: center;
   align-content: center;
   width: 100%;
   gap: 20px;
 }
 
 .project {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0 20px;
   padding: 20px;
 }
 
 .project .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 25%;
   padding: 10px;
@@ -24,6 +39,8 @@
 .project h1 {
   font-size: 1.25em;
   font-weight: bold;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
   align-self: center;
   padding: 10px;
 }
@@ -41,7 +58,10 @@
 }
 
 .project .tech {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
 }
 
@@ -51,20 +71,34 @@
 }
 
 .justify-right .buttons {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
   align-items: flex-end;
 }
 
 .justify-left {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
 }
 
 .justify-left .buttons {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: flex-start;
 }
 
 .project .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -75,7 +109,17 @@
   color: white;
   font-size: 2em;
   background-size: 100% 200%;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(50%, transparent),
+    color-stop(50%, red)
+  );
+  background-image: -o-linear-gradient(top, transparent 50%, red 50%);
   background-image: linear-gradient(to bottom, transparent 50%, red 50%);
+  -webkit-transition: background-position 500ms;
+  -o-transition: background-position 500ms;
   transition: background-position 500ms;
 }
 
@@ -85,25 +129,45 @@
 
 @media (max-width: 1200px) {
   .project {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 
   .project .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -ms-flex-item-align: center;
     align-self: center;
   }
 
   .project .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     width: 75%;
     padding: 10px;
   }
 
   .justify-right {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
     align-items: flex-end;
   }
 }
