@@ -18,6 +18,7 @@
   justify-content: space-between;
   width: 25%;
   padding: 10px;
+  gap: 10px;
 }
 
 .project h1 {
@@ -80,4 +81,39 @@
 
 .project .btn:hover {
   background-position: 0 100%;
+}
+
+@media (max-width: 1200px) {
+  .project {
+    flex-direction: column;
+  }
+
+  .project .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .project .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75%;
+    padding: 10px;
+  }
+
+  .justify-right {
+    align-items: flex-end;
+  }
+}
+
+@media (max-width: 700px) {
+  .project .screenshot {
+    width: 100%;
+  }
+
+  .project .info {
+    width: 100%;
+  }
 }

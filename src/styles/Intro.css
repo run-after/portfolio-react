@@ -9,6 +9,7 @@
 #intro .greeting {
   font-size: 4em;
   margin: 20px;
+  text-align: center;
 }
 
 #intro .name {
@@ -18,6 +19,7 @@
 
 #intro .description {
   font-size: 2em;
+  text-align: center;
 }
 
 .link {

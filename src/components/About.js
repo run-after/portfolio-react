@@ -12,7 +12,7 @@ import gitIcon from '../media/git.png';
 const About = () => {
   return (
     <div id='about'>
-      <div className='test'>
+      <div className='container'>
         <div className='definition'>
           <div className='title'>
             <span className='name'>Chase </span><span className='pronounce'>[ cheys ]</span>
