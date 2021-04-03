@@ -141,6 +141,9 @@ const Projects = () => {
           </ul>
         </div>
       </div>
+      <div className='more'>
+        See more projects on my <a href='https://github.com/run-after' target='_blank'>Github</a>!
+      </div>
     </div>
   )
 };

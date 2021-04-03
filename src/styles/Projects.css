@@ -127,6 +127,21 @@
   background-position: 0 100%;
 }
 
+.more {
+  text-align: center;
+  padding: 20px 0 50px 0;
+  font-size: 1.5em;
+}
+
+.more a {
+  text-decoration: none;
+  color: darkgray;
+}
+
+.more a:hover {
+  opacity: 0.5;
+}
+
 @media (max-width: 1200px) {
   .project {
     -webkit-box-orient: vertical;
