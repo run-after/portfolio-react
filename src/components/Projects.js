@@ -142,7 +142,7 @@ const Projects = () => {
         </div>
       </div>
       <div className='more'>
-        See more projects on my <a href='https://github.com/run-after' target='_blank'>Github</a>!
+        See more projects on my <a href='https://github.com/run-after' target='_blank' rel="noreferrer">Github</a>!
       </div>
     </div>
   )

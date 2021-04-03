@@ -16,3 +16,5 @@ function App() {
 }
 
 export default App;
+
+// Add icon to title
