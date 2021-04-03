@@ -150,6 +150,10 @@
     align-self: center;
   }
 
+  .project .screenshot {
+    width: 75%;
+  }
+
   .project .info {
     display: -webkit-box;
     display: -ms-flexbox;
