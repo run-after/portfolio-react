@@ -17,4 +17,5 @@ function App() {
 
 export default App;
 
-// Add icon to title
+// Slow fade for icons in intro
+// Hover over tech icons in about section and have a name of tech come over it

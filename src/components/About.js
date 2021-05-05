@@ -35,7 +35,9 @@ const About = () => {
         <div className='icons'>
           <div className='col-1 col'>
             <img className='tech-icon' src={htmlIcon} alt='html' />
+            <h5 className='tech-banner'>HTML</h5>
             <img className='tech-icon' src={cssIcon} alt='css' />
+            <h5 className='tech-banner'>CSS</h5>
           </div>
 
           <div className='col-2 col'>
