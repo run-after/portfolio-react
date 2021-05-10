@@ -1,5 +1,6 @@
 import '../styles/Projects.css';
 import readit from '../media/readit-screenshot.png';
+import odinBook from '../media/odinbook-screenshot.png';
 import wheresWaldo from '../media/wheres-waldo-screenshot.jpg';
 import battleship from '../media/battleship-screenshot.jpg';
 import memoryGame from '../media/memory-card-screenshot.jpg';
@@ -10,6 +11,8 @@ import cssIcon from '../media/css.jpg';
 import javascriptIcon from '../media/javascript.png';
 import jestIcon from '../media/jest.png';
 import webpackIcon from '../media/webpack.png';
+import bootstrapIcon from '../media/bootstrap.png';
+import railsIcon from '../media/rails.png';
 
 const Projects = () => {
   return (
@@ -51,6 +54,40 @@ const Projects = () => {
 
       <div className='project justify-left'>
         <div className='buttons'>
+          <a className='btn' href='https://github.com/run-after/odinbook' target='_blank' rel='noreferrer'>Live</a>
+          <a className='btn' href='https://blooming-shore-50178.herokuapp.com/' target='_blank' rel='noreferrer'>Code</a>
+        </div>
+        <img className='screenshot' src={odinBook} alt='Screenshot of Odinbook' />
+        <div className='info'>
+          <h1>Odinbook - A Facebook clone</h1>
+          <p>
+            A fullstack web app built using Ruby on Rails and styled with Bootstrap deployed using Heroku
+          </p>
+          <p>
+            Inclueds all the core features of Facebook
+          </p>
+          <p>
+            Utilizes a mailer to welcome a new user when they sign up
+          </p>
+          <p>
+            Utilizes AWS S3 via Active Storage to allow an attachment/update of an avatar photo
+          </p>
+          <p>
+            This was a fun and challenging project that has a lot of moving pieces. Setting up the DB schema was one of the
+             bigger challenges. This was my first fullstack app that I made.
+          </p>
+          
+          <ul className='tech'>
+            <li><img className='tech-icon' src={htmlIcon} alt='HTML icon' /></li>
+            <li><img className='tech-icon' src={cssIcon} alt='CSS icon' /></li>
+            <li><img className='tech-icon' src={railsIcon} alt='Rails icon' /></li>
+            <li><img className='tech-icon' src={bootstrapIcon} alt='bootstrap icon' /></li>
+          </ul>
+        </div>
+      </div>
+
+      <div className='project justify-right'>
+        <div className='buttons'>
           <a className='btn' href='https://run-after.github.io/wheres-waldo' target='_blank' rel='noreferrer'>Live</a>
           <a className='btn' href='https://github.com/run-after/wheres-waldo' target='_blank' rel='noreferrer'>Code</a>
         </div>
@@ -82,7 +119,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className='project justify-right'>
+      <div className='project justify-left'>
         <div className='buttons'>
           <a className='btn' href='https://run-after.github.io/battleship/' target='_blank' rel='noreferrer'>Live</a>
           <a className='btn' href='https://github.com/run-after/battleship' target='_blank' rel='noreferrer'>Code</a>
@@ -113,7 +150,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className='project justify-left'>
+      <div className='project justify-right'>
         <div className='buttons'>
           <a className='btn' href='https://run-after.github.io/memory-game/' target='_blank' rel='noreferrer'>Live</a>
           <a className='btn' href='https://github.com/run-after/memory-game' target='_blank' rel='noreferrer'>Code</a>
