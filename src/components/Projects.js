@@ -54,8 +54,8 @@ const Projects = () => {
 
       <div className='project justify-left'>
         <div className='buttons'>
-          <a className='btn' href='https://github.com/run-after/odinbook' target='_blank' rel='noreferrer'>Live</a>
-          <a className='btn' href='https://blooming-shore-50178.herokuapp.com/' target='_blank' rel='noreferrer'>Code</a>
+          <a className='btn' href='https://blooming-shore-50178.herokuapp.com/' target='_blank' rel='noreferrer'>Live</a>
+          <a className='btn' href='https://github.com/run-after/odinbook' target='_blank' rel='noreferrer'>Code</a>
         </div>
         <img className='screenshot' src={odinBook} alt='Screenshot of Odinbook' />
         <div className='info'>
