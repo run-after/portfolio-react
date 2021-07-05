@@ -31,9 +31,7 @@ const Skills = () => {
           <img className='tech-icon' src={rubyIcon} alt='ruby' />
           <img className='tech-icon' src={railsIcon} alt='rails' />
         </div>
-        
       </div>
-      
     </div>
   );
 };
