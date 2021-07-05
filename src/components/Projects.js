@@ -57,8 +57,7 @@ const Projects = () => {
       <div className='project justify-left'>
         <div className='buttons'>
           <a className='btn' href='https://run-after.github.io/blog-frontend//' target='_blank' rel='noreferrer'>Live</a>
-          <a className='btn' href='https://github.com/run-after/blog-frontend' target='_blank' rel='noreferrer'>Code(client)</a>
-          <a className='btn' href='https://github.com/run-after/blog-backend' target='_blank' rel='noreferrer'>Code(server)</a>
+          <a className='btn' href='https://github.com/run-after/blog-backend' target='_blank' rel='noreferrer'>Code</a>
         </div>
         <img className='screenshot' src={blog} alt='Screenshot of The Blog' />
         <div className='info'>
