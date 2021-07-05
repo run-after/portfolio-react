@@ -39,13 +39,13 @@ const About = () => {
             <img className='tech-icon' src={htmlIcon} alt='html' />
             <img className='tech-icon' src={cssIcon} alt='css' />
             <img className='tech-icon' src={gitIcon} alt='git' />
+            <img className='tech-icon' src={webpackIcon} alt='webpack' />
           </div>
 
           <div className='col-2 col'>
             <img className='tech-icon' src={javascriptIcon} alt='javascript' />
             <img className='tech-icon' src={reactIcon} alt='React' />
             <img className='tech-icon' src={nodeIcon} alt='node' />
-            <img className='tech-icon' src={webpackIcon} alt='webpack' />
           </div>
 
           <div className='col-3 col'>
