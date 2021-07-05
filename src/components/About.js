@@ -8,6 +8,8 @@ import firebaseIcon from '../media/firebase.png';
 import rubyIcon from '../media/ruby.png';
 import railsIcon from '../media/rails.png';
 import gitIcon from '../media/git.png';
+import nodeIcon from '../media/node.jpeg';
+import mongoIcon from '../media/mongodb.png';
 
 const About = () => {
   return (
@@ -22,11 +24,11 @@ const About = () => {
           <div><span className='number'>2   </span><span>to run after</span></div>
         </div>
         <p className='description'>
-            I'm a self taught developer. I have an engineering background which I believe gives me
-            a unique analytical way of looking at problems. When there is an issue, I step back and look at
-            the big picture. To find the root cause of the problem, sometimes it takes a careful tracing of the path
-            to find what went wrong. When the problem is found, it is often useful to break the problem down into
-            smaller, more managable problems. This translates to coding well.
+          I'm a self taught developer. I have an engineering background which I believe gives me
+          a unique analytical way of looking at problems. When there is an issue, I step back and look at
+          the big picture. To find the root cause of the problem, sometimes it takes a careful tracing of the path
+          to find what went wrong. When the problem is found, it is often useful to break the problem down into
+          smaller, more managable problems. This translates to coding well.
         </p>
       </div>
 
@@ -36,20 +38,22 @@ const About = () => {
           <div className='col-1 col'>
             <img className='tech-icon' src={htmlIcon} alt='html' />
             <img className='tech-icon' src={cssIcon} alt='css' />
+            <img className='tech-icon' src={gitIcon} alt='git' />
           </div>
 
           <div className='col-2 col'>
             <img className='tech-icon' src={javascriptIcon} alt='javascript' />
             <img className='tech-icon' src={reactIcon} alt='React' />
+            <img className='tech-icon' src={nodeIcon} alt='node' />
             <img className='tech-icon' src={webpackIcon} alt='webpack' />
           </div>
 
           <div className='col-3 col'>
             <img className='tech-icon' src={firebaseIcon} alt='firebase' />
-            <img className='tech-icon' src={gitIcon} alt='git' />
+            <img className='tech-icon' src={mongoIcon} alt='mongodb' />
             <img className='tech-icon' src={rubyIcon} alt='ruby' />
             <img className='tech-icon' src={railsIcon} alt='rails' />
-          </div>  
+          </div>
         </div>
       </div>
     </div>
