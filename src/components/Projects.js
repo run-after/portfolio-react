@@ -78,6 +78,15 @@ const Projects = () => {
             I found this to be a very fun project. When I had my frontend make the first API call, it was a really good feeling.
             Then implementing the rest of the API calls was a fun and rewarding practice.
           </p>
+          <p>
+            To try out this website, you can read and comment without logging in, or if you want the author experience use these credentials to log in:
+          </p>
+          <p>
+            Username: Chase
+          </p>
+          <p>
+            Password: password
+          </p>
 
           <ul className='tech'>
             <li><img className='tech-icon' src={htmlIcon} alt='HTML icon' /></li>
