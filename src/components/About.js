@@ -10,6 +10,7 @@ import railsIcon from '../media/rails.png';
 import gitIcon from '../media/git.png';
 import nodeIcon from '../media/node.jpeg';
 import mongoIcon from '../media/mongodb.png';
+import awsIcon from '../media/aws.png';
 
 const About = () => {
   return (
@@ -38,19 +39,20 @@ const About = () => {
           <div className='col-1 col'>
             <img className='tech-icon' src={htmlIcon} alt='html' />
             <img className='tech-icon' src={cssIcon} alt='css' />
-            <img className='tech-icon' src={gitIcon} alt='git' />
-            <img className='tech-icon' src={webpackIcon} alt='webpack' />
+            <img className='tech-icon' src={javascriptIcon} alt='javascript' />
           </div>
 
           <div className='col-2 col'>
-            <img className='tech-icon' src={javascriptIcon} alt='javascript' />
             <img className='tech-icon' src={reactIcon} alt='React' />
             <img className='tech-icon' src={nodeIcon} alt='node' />
+            <img className='tech-icon' src={mongoIcon} alt='mongodb' />
+            <img className='tech-icon' src={awsIcon} alt='aws' />
           </div>
 
           <div className='col-3 col'>
+            <img className='tech-icon' src={gitIcon} alt='git' />
+            <img className='tech-icon' src={webpackIcon} alt='webpack' />
             <img className='tech-icon' src={firebaseIcon} alt='firebase' />
-            <img className='tech-icon' src={mongoIcon} alt='mongodb' />
             <img className='tech-icon' src={rubyIcon} alt='ruby' />
             <img className='tech-icon' src={railsIcon} alt='rails' />
           </div>
