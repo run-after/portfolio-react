@@ -32,10 +32,13 @@
 }
 
 .link {
-  height: 50px;
-  padding: 20px;
+  padding: 30px 20px;
+  font-size: 60px;
+  color: white;
+  transition: color 0.5s;
 }
 
 .link:hover {
-  opacity: 0.5;
+  color: red;
+  transition: color 0.5s;
 }
