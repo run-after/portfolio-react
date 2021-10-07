@@ -26,7 +26,9 @@ const Projects = () => {
           <a className='btn' href='https://runafter-social.netlify.app/' target='_blank' rel='noreferrer'>Live</a>
           <a className='btn' href='https://github.com/run-after/social-frontend' target='_blank' rel='noreferrer'>Code</a>
         </div>
-        <img className='screenshot' src={social} alt='Screenshot of Social' />
+        <a className='screenshot-link' href='https://runafter-social.netlify.app/' target='_blank' rel='noreferrer'>
+          <img className='screenshot' src={social} alt='Screenshot of Social' />
+        </a>
         <div className='info'>
           <h1>Social - a Facebook clone</h1>
           <p>
@@ -58,7 +60,9 @@ const Projects = () => {
           <a className='btn' href='https://readitapp.netlify.app/' target='_blank' rel='noreferrer'>Live</a>
           <a className='btn' href='https://github.com/run-after/readit' target='_blank' rel='noreferrer'>Code</a>
         </div>
-        <img className='screenshot' src={readit} alt='Screenshot of Readit' />
+        <a className='screenshot-link' href='https://readitapp.netlify.app/' target='_blank' rel='noreferrer'>
+          <img className='screenshot' src={readit} alt='Screenshot of Readit' />
+        </a>
         <div className='info'>
           <h1>Readit - a Reddit clone</h1>
           <p>
@@ -92,7 +96,9 @@ const Projects = () => {
           <a className='btn' href='https://run-after.github.io/battleship/' target='_blank' rel='noreferrer'>Live</a>
           <a className='btn' href='https://github.com/run-after/battleship' target='_blank' rel='noreferrer'>Code</a>
         </div>
-        <img className='screenshot' src={battleship} alt='Screenshot of Battleship' />
+        <a className='screenshot-link' href='https://run-after.github.io/battleship/' target='_blank' rel='noreferrer'>
+          <img className='screenshot' src={battleship} alt='Screenshot of Battleship' />
+        </a>
         <div className='info'>
           <h1>Battleship - a classic game</h1>
           <p>
@@ -123,7 +129,9 @@ const Projects = () => {
           <a className='btn' href='https://blooming-shore-50178.herokuapp.com/' target='_blank' rel='noreferrer'>Live</a>
           <a className='btn' href='https://github.com/run-after/odinbook' target='_blank' rel='noreferrer'>Code</a>
         </div>
-        <img className='screenshot' src={odinBook} alt='Screenshot of Odinbook' />
+        <a className='screenshot-link' href='https://blooming-shore-50178.herokuapp.com/' target='_blank' rel='noreferrer'>
+          <img className='screenshot' src={odinBook} alt='Screenshot of Odinbook' />
+        </a>
         <div className='info'>
           <h1>Odinbook - A Facebook clone</h1>
           <p>
