@@ -57,7 +57,7 @@
 }
 
 .project .screenshot {
-  width: 65%;
+  width: 100%;
 }
 
 .justify-right .screenshot {
@@ -176,10 +176,6 @@
     align-self: center;
   }
 
-  .project .screenshot {
-    width: 75%;
-  }
-
   .project .info {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -196,9 +192,7 @@
   }
 
   .justify-right {
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    align-items: flex-end;
+    align-items: center;
   }
 }
 
