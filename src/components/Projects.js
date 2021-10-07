@@ -38,10 +38,10 @@ const Projects = () => {
           <p>
             The <a href='https://github.com/run-after/social-frontend'>frontend</a> makes API calls to
             the <a href='https://github.com/run-after/social-backend'>backend</a>. All routes are secured via
-            passport.js except the routes to log in, sign up, and log in with Facebook.
+            passport.js except the routes to log in, sign up, and log in with Facebook
           </p>
           <p>
-            Cors was used to ensure only the frontend can make API calls. 
+            Cors was used to ensure only the frontend can make API calls
           </p>
           <ul className='tech'>
             <li><img className='tech-icon' src={javascriptIcon} alt='JS icon' /></li>
@@ -70,7 +70,7 @@ const Projects = () => {
             join groups.. It's all there
           </p>
           <p>
-            Custom CSS with responsive design
+            Custom CSS with responsive design designed to look like the old reddit
           </p>
           <p>
             This was a large project with a lot of moving parts. Setting up the
@@ -140,7 +140,7 @@ const Projects = () => {
           </p>
           <p>
             This is the largest project I have done using Ruby on Rails. I learned a lot and really enjoyed
-            working through all these moving parts.
+            working through all these moving parts
           </p>
 
           <ul className='tech'>
