@@ -46,11 +46,26 @@ const Projects = () => {
             Cors was used to ensure only the frontend can make API calls
           </p>
           <ul className='tech'>
-            <li><img className='tech-icon' src={javascriptIcon} alt='JS icon' /></li>
-            <li><img className='tech-icon' src={reactIcon} alt='React icon' /></li>
-            <li><img className='tech-icon' src={nodeIcon} alt='Node icon' /></li>
-            <li><img className='tech-icon' src={mongoIcon} alt='Mongo icon' /></li>
-            <li><img className='tech-icon' src={aws} alt='AWS icon' /></li>
+            <li className='img-wrapper'>
+              <img className='tech-icon' src={javascriptIcon} alt='JS icon' />
+              <p className='img-description'>JavaScript</p>
+            </li>
+            <li className='img-wrapper'>
+              <img className='tech-icon' src={reactIcon} alt='React icon' />
+              <p className='img-description'>React</p>
+            </li>
+            <li className='img-wrapper'>
+              <img className='tech-icon' src={nodeIcon} alt='Node icon' />
+              <p className='img-description'>Node.js</p>
+            </li>
+            <li className='img-wrapper'>
+              <img className='tech-icon' src={mongoIcon} alt='Mongo icon' />
+              <p className='img-description'>MongoDB</p>
+            </li>
+            <li className='img-wrapper'>
+              <img className='tech-icon' src={aws} alt='AWS icon' />
+              <p className='img-description'>AWS</p>
+            </li>
           </ul>
         </div>
       </div>
@@ -82,11 +97,22 @@ const Projects = () => {
             Getting all the moving parts to work together was a fun, challenging project
           </p>
           <ul className='tech'>
-            <li><img className='tech-icon' src={htmlIcon} alt='HTML icon' /></li>
-            <li><img className='tech-icon' src={cssIcon} alt='CSS icon' /></li>
-            <li><img className='tech-icon' src={javascriptIcon} alt='JS icon' /></li>
-            <li><img className='tech-icon' src={reactIcon} alt='React icon' /></li>
-            <li><img className='tech-icon' src={firebaseIcon} alt='Firebase icon' /></li>
+            <li className='img-wrapper'>
+              <img className='tech-icon' src={cssIcon} alt='CSS icon' />
+              <p className='img-description'>CSS</p>
+            </li>
+            <li className='img-wrapper'>
+              <img className='tech-icon' src={javascriptIcon} alt='JS icon' />
+              <p className='img-description'>JavaScript</p>
+            </li>
+            <li className='img-wrapper'>
+              <img className='tech-icon' src={reactIcon} alt='React icon' />
+              <p className='img-description'>React</p>
+            </li>
+            <li className='img-wrapper'>
+              <img className='tech-icon' src={firebaseIcon} alt='Firebase icon' />
+              <p className='img-description'>Furebase</p>
+            </li>
           </ul>
         </div>
       </div>
@@ -115,11 +141,26 @@ const Projects = () => {
           </p>
 
           <ul className='tech'>
-            <li><img className='tech-icon' src={htmlIcon} alt='HTML icon' /></li>
-            <li><img className='tech-icon' src={cssIcon} alt='CSS icon' /></li>
-            <li><img className='tech-icon' src={javascriptIcon} alt='JS icon' /></li>
-            <li><img className='tech-icon' src={webpackIcon} alt='Webpack icon' /></li>
-            <li><img className='tech-icon' src={jestIcon} alt='Jest icon' /></li>
+            <li className='img-wrapper'>
+              <img className='tech-icon' src={htmlIcon} alt='HTML icon' />
+              <p className='img-description'>HTML</p>
+            </li>
+            <li className='img-wrapper'>
+              <img className='tech-icon' src={cssIcon} alt='CSS icon' />
+              <p className='img-description'>CSS</p>
+            </li>
+            <li className='img-wrapper'>
+              <img className='tech-icon' src={javascriptIcon} alt='JS icon' />
+              <p className='img-description'>JavaScript</p>
+            </li>
+            <li className='img-wrapper'>
+              <img className='tech-icon' src={webpackIcon} alt='Webpack icon' />
+              <p className='img-description'>Webpack</p>
+            </li>
+            <li className='img-wrapper'>
+              <img className='tech-icon' src={jestIcon} alt='Jest icon' />
+              <p className='img-description'>Jest</p>
+            </li>
           </ul>
         </div>
       </div>
@@ -152,11 +193,26 @@ const Projects = () => {
           </p>
 
           <ul className='tech'>
-            <li><img className='tech-icon' src={htmlIcon} alt='HTML icon' /></li>
-            <li><img className='tech-icon' src={cssIcon} alt='CSS icon' /></li>
-            <li><img className='tech-icon' src={railsIcon} alt='Rails icon' /></li>
-            <li><img className='tech-icon' src={bootstrapIcon} alt='bootstrap icon' /></li>
-            <li><img className='tech-icon' src={aws} alt='AWS icon' /></li>
+            <li className='img-wrapper'>
+              <img className='tech-icon' src={htmlIcon} alt='HTML icon' />
+              <p className='img-description'>HTML</p>
+            </li>
+            <li className='img-wrapper'>
+              <img className='tech-icon' src={cssIcon} alt='CSS icon' />
+              <p className='img-description'>CSS</p>
+            </li>
+            <li className='img-wrapper'>
+              <img className='tech-icon' src={railsIcon} alt='Rails icon' />
+              <p className='img-description'>Rails</p>
+            </li>
+            <li className='img-wrapper'>
+              <img className='tech-icon' src={bootstrapIcon} alt='bootstrap icon' />
+              <p className='img-description'>Bootstrap</p>
+            </li>
+            <li className='img-wrapper'>
+              <img className='tech-icon' src={aws} alt='AWS icon' />
+              <p className='img-description'>AWS</p>
+            </li>
           </ul>
         </div>
       </div>

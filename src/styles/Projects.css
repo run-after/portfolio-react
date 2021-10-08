@@ -78,6 +78,23 @@
   justify-content: space-around;
 }
 
+.tech .img-description {
+  position: absolute;
+  background: transparent;
+  color: white;
+  opacity: 0;
+  -webkit-transition: opacity 1.5s;
+  -o-transition: opacity 1.5s;
+  transition: opacity 1.5s;
+  font-size: 0.75em;
+  bottom: -30px;
+  border: none;
+}
+
+.tech .img-description:hover {
+  cursor: default;
+}
+
 .project .tech-icon {
   height: 50px;
   border-radius: 10px;
