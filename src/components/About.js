@@ -9,7 +9,7 @@ import mongoIcon from "../media/mongodb.png";
 import awsIcon from "../media/aws.png";
 import nextIcon from "../media/nextjs.png";
 import jestIcon from "../media/jest.png";
-import storybookIcon from "../media/storybook.png";
+import tailwindIcon from "../media/tailwind.png";
 import cypressIcon from "../media/cypress.png";
 
 const About = () => {
@@ -37,21 +37,17 @@ const About = () => {
         <p className="description">
           I'm a self-taught developer. I have been working with web technologies
           since 2020. The first two years, I spent teaching myself how to work
-          with different web technologies while working fulltime. The last year
-          I have been working as a Frontend Developer building and maintaining
-          an embedded SDK, customer dashboard, and a brochure site. I have an
-          engineering background which I believe gives me a unique analytical
-          way of looking at problems. At my current position, when there is an
-          issue I step back and look at the big picture. To find the root cause
-          of the problem, sometimes it takes a careful tracing of the path to
-          find what went wrong. When the problem is found, it is often useful to
-          break the problem down into smaller, more manageable problems. This
-          translates to coding well.
+          with different web technologies while working fulltime. I have built
+          and maintained an embedded SDK, customer dashboard, and a brochure
+          site with Covie. After working with Covie, I have done some freelance
+          work building a couple of customer facing sites. Below you'll find
+          some of my personal projects I built while learning / practicing. I am
+          currently open to new opportunites! Feel free to reach out!
         </p>
       </div>
 
       <div className="skills">
-        <h1 className="title">What I know</h1>
+        <h1 className="title">Some tech I know</h1>
         <div className="icons">
           <div className="col-1 col">
             <div className="img-wrapper">
@@ -83,8 +79,8 @@ const About = () => {
               <img className="tech-icon" src={cypressIcon} alt="cypress" />
             </div>
             <div className="img-wrapper">
-              <p className="img-description">Storybook</p>
-              <img className="tech-icon" src={storybookIcon} alt="storybook" />
+              <p className="img-description">TailwindCSS</p>
+              <img className="tech-icon" src={tailwindIcon} alt="TailwindCSS" />
             </div>
             <div className="img-wrapper">
               <p className="img-description">Node.js</p>
