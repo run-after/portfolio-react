@@ -7,6 +7,8 @@ import reactIcon from "../media/react.png";
 import firebaseIcon from "../media/firebase.png";
 import htmlIcon from "../media/html.png";
 import cssIcon from "../media/css.jpg";
+import tailwindIcon from "../media/tailwind.png";
+import nextIcon from "../media/nextjs.png";
 import javascriptIcon from "../media/javascript.png";
 import jestIcon from "../media/jest.png";
 import webpackIcon from "../media/webpack.png";
@@ -96,7 +98,7 @@ const Projects = () => {
         <div className="buttons">
           <a
             className="btn"
-            href="https://readitapp.netlify.app/"
+            href="https://readit-next.netlify.app"
             target="_blank"
             rel="noreferrer"
           >
@@ -104,7 +106,7 @@ const Projects = () => {
           </a>
           <a
             className="btn"
-            href="https://github.com/run-after/readit"
+            href="https://github.com/run-after/readit-next"
             target="_blank"
             rel="noreferrer"
           >
@@ -113,7 +115,7 @@ const Projects = () => {
         </div>
         <a
           className="screenshot-link"
-          href="https://readitapp.netlify.app/"
+          href="https://readit-next.netlify.app"
           target="_blank"
           rel="noreferrer"
         >
@@ -122,17 +124,14 @@ const Projects = () => {
         <div className="info">
           <h1>Readit - a Reddit clone</h1>
           <p>
-            A fullstack web app built using React functional components on the
-            front-end and Firebase on the back-end, deployed on Netlify.
+            A fullstack web app built using Next.js on the front-end and
+            Firebase on the back-end, deployed on Netlify.
           </p>
           <p>
             Sign up with email. Post, comment, like, hate, create groups, join
             groups.. It's all there.
           </p>
-          <p>
-            Custom CSS with responsive design designed to look like the old
-            reddit.
-          </p>
+          <p>TailwindCSS was used to mimic the look and feel of Reddit.</p>
           <p>
             This was a large project with a lot of moving parts. Setting up the
             DB schema was probably the most challenging part of this project for
@@ -141,16 +140,20 @@ const Projects = () => {
           </p>
           <ul className="tech">
             <li className="img-wrapper">
-              <img className="tech-icon" src={cssIcon} alt="CSS icon" />
-              <p className="img-description">CSS</p>
+              <img className="tech-icon" src={nextIcon} alt="Next icon" />
+              <p className="img-description">NextJS</p>
+            </li>
+            <li className="img-wrapper">
+              <img
+                className="tech-icon"
+                src={tailwindIcon}
+                alt="Tailwind icon"
+              />
+              <p className="img-description">Tailwind</p>
             </li>
             <li className="img-wrapper">
               <img className="tech-icon" src={javascriptIcon} alt="JS icon" />
               <p className="img-description">JavaScript</p>
-            </li>
-            <li className="img-wrapper">
-              <img className="tech-icon" src={reactIcon} alt="React icon" />
-              <p className="img-description">React</p>
             </li>
             <li className="img-wrapper">
               <img
